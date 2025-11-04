@@ -47,7 +47,7 @@ Compare and extract different icons between Global and CN World of Warcraft vers
 
 ### Option 2: Build from Source
 
-1. Install Rust from https://rustup.rs/
+1. Install Rust from <https://rustup.rs/>
 2. Clone this repository:
 
    ```bash
@@ -102,6 +102,7 @@ Optional:
 ### Blacklist Files
 
 By default, these files are excluded from comparison as they contain localized text that naturally differs between versions:
+
 - `XP_ICON.BLP` - Experience bar icons with localized text
 - `XPBonus_Icon.blp` - Bonus experience icons with localized text
 - `Garr_CurrencyIcon-Xp.blp` - Garrison experience icons with localized text
@@ -111,7 +112,7 @@ By default, these files are excluded from comparison as they contain localized t
 <details>
 <summary>Basic Usage</summary>
 
-```bash
+```pwsh
 uncensor-icon `
     --global-dir "C:\Games\WoW\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --cn-dir "C:\Games\WoW CN\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
@@ -123,7 +124,7 @@ uncensor-icon `
 <details>
 <summary>With Custom Blacklist</summary>
 
-```bash
+```pwsh
 uncensor-icon `
     --global-dir "C:\Games\WoW\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --cn-dir "C:\Games\WoW CN\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
@@ -135,7 +136,7 @@ uncensor-icon `
 
 ## 🔧 Building from Source
 
-1. Install Rust from https://rustup.rs/
+1. Install Rust from <https://rustup.rs/>
 2. Clone or download this project
 3. Run: `cargo build --release`
 4. The executable will be in `target/release/uncensor-icon.exe`

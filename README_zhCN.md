@@ -47,7 +47,7 @@
 
 ### 选项2：从源代码构建
 
-1. 从 https://rustup.rs/ 安装 Rust
+1. 从 <https://rustup.rs/> 安装 Rust
 2. 克隆此仓库：
 
    ```bash
@@ -90,18 +90,19 @@ uncensor-icon `
 uncensor-icon [选项]
 
 必需参数:
-  --global-dir <DIR>      全球版WoW图标文件夹路径
-  --cn-dir <DIR>          中国版WoW图标文件夹路径
-  --output-dir <DIR>      复制不同图标的输出位置
+--global-dir <DIR >全球版WoW图标文件夹路径
+--cn-dir <DIR >中国版WoW图标文件夹路径
+--output-dir <DIR >复制不同图标的输出位置
 
 可选参数:
-  --blacklist <FILES>     要跳过的文件（默认：XP_ICON.BLP,XPBonus_Icon.blp,Garr_CurrencyIcon-Xp.blp）
-  --help                  显示帮助信息
+--blacklist <FILES >要跳过的文件（默认：XP_ICON.BLP,XPBonus_Icon.blp,Garr_CurrencyIcon-Xp.blp）
+--help 显示帮助信息
 ```
 
 ### 黑名单文件
 
 默认情况下，这些文件被排除在比较之外，因为它们包含本地化文字，在不同版本间自然存在差异：
+
 - `XP_ICON.BLP` - 包含本地化文字的经验条图标
 - `XPBonus_Icon.blp` - 包含本地化文字的奖励经验图标
 - `Garr_CurrencyIcon-Xp.blp` - 包含本地化文字的要塞经验图标
@@ -111,7 +112,7 @@ uncensor-icon [选项]
 <details>
 <summary>基本用法</summary>
 
-```bash
+```pwsh
 uncensor-icon `
     --global-dir "C:\Games\WoW\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --cn-dir "C:\Games\WoW CN\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
@@ -123,7 +124,7 @@ uncensor-icon `
 <details>
 <summary>使用自定义黑名单</summary>
 
-```bash
+```pwsh
 uncensor-icon `
     --global-dir "C:\Games\WoW\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --cn-dir "C:\Games\WoW CN\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
@@ -135,7 +136,7 @@ uncensor-icon `
 
 ## 🔧 从源代码构建
 
-1. 从 https://rustup.rs/ 安装 Rust
+1. 从 <https://rustup.rs/> 安装 Rust
 2. 克隆或下载此项目
 3. 运行：`cargo build --release`
 4. 可执行文件将位于 `target/release/uncensor-icon.exe`
