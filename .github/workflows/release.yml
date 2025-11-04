@@ -67,12 +67,6 @@ jobs:
             os_name: linux
             arch_name: x64
             extension: tar.gz
-          - os: ubuntu-latest
-            target: aarch64-unknown-linux-gnu
-            artifact_name: uncensor-icon
-            os_name: linux
-            arch_name: arm64
-            extension: tar.gz
 
           # macOS
           - os: macos-latest
