@@ -1,8 +1,14 @@
-# 🎮 CN Icon Remover
+<div align="center">
 
-Compare and extract different icons between Global and CN World of Warcraft versions to override censored content.
+# 🎮 Uncensor Icon
 
 [简体中文](README_zhCN.md) | English
+
+![title](https://raw.githubusercontent.com/wind-addons/resources/main/dist/tools/uncensor-icon/title.png)
+
+</div>
+
+Compare and extract different icons between Global and CN World of Warcraft versions to override censored content.
 
 <details>
 <summary>📖 Table of Contents</summary>
@@ -32,11 +38,11 @@ Compare and extract different icons between Global and CN World of Warcraft vers
 
 ### Option 1: Download Pre-built Binary
 
-1. Go to the [Releases](https://github.com/wind-addons/cn-icon-remover/releases) page
+1. Go to the [Releases](https://github.com/wind-addons/uncensor-icon/releases) page
 2. Download the latest binary for your platform:
-   - Windows: `cn-icon-remover-windows.exe`
-   - Linux: `cn-icon-remover-linux`
-   - macOS: `cn-icon-remover-macos`
+   - Windows: `uncensor-icon-windows.exe`
+   - Linux: `uncensor-icon-linux`
+   - macOS: `uncensor-icon-macos`
 3. Place it in a convenient location
 
 ### Option 2: Build from Source
@@ -45,8 +51,8 @@ Compare and extract different icons between Global and CN World of Warcraft vers
 2. Clone this repository:
 
    ```bash
-   git clone https://github.com/wind-addons/cn-icon-remover.git
-   cd cn-icon-remover
+   git clone https://github.com/wind-addons/uncensor-icon.git
+   cd uncensor-icon
    ```
 
 3. Build the project:
@@ -55,7 +61,7 @@ Compare and extract different icons between Global and CN World of Warcraft vers
    cargo build --release
    ```
 
-4. The executable will be in `target/release/cn-icon-remover.exe`
+4. The executable will be in `target/release/uncensor-icon.exe`
 
 ## 🎯 Quick Start
 
@@ -72,7 +78,7 @@ You need to extract the icon files from both WoW versions first:
 ### Step 2: Run the Tool
 
 ```pwsh
-cn-icon-remover `
+uncensor-icon `
     --global-dir "C:\WoW\Global\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --cn-dir "C:\WoW\CN\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --output-dir "C:\WoW\CN\_retail_\Interface\ICONS"
@@ -81,7 +87,7 @@ cn-icon-remover `
 ## ⚙️ Command Options
 
 ```bash
-cn-icon-remover [OPTIONS]
+uncensor-icon [OPTIONS]
 
 Required:
   --global-dir <DIR>      Path to Global WoW icons folder
@@ -106,7 +112,7 @@ By default, these files are excluded from comparison as they contain localized t
 <summary>Basic Usage</summary>
 
 ```bash
-cn-icon-remover `
+uncensor-icon `
     --global-dir "C:\Games\WoW\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --cn-dir "C:\Games\WoW CN\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --output-dir "C:\Games\WoW CN\_retail_\Interface\ICONS"
@@ -118,7 +124,7 @@ cn-icon-remover `
 <summary>With Custom Blacklist</summary>
 
 ```bash
-cn-icon-remover `
+uncensor-icon `
     --global-dir "C:\Games\WoW\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --cn-dir "C:\Games\WoW CN\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --output-dir "C:\Games\WoW CN\_retail_\Interface\ICONS" `
@@ -132,7 +138,7 @@ cn-icon-remover `
 1. Install Rust from https://rustup.rs/
 2. Clone or download this project
 3. Run: `cargo build --release`
-4. The executable will be in `target/release/cn-icon-remover.exe`
+4. The executable will be in `target/release/uncensor-icon.exe`
 
 ## 📄 License
 

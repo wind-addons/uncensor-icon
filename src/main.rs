@@ -20,7 +20,7 @@ use file_copier::FileCopier;
 fn main() -> Result<()> {
     let args = Args::parse();
 
-    println!("🎮 CN WoW Icon Tool");
+    println!("🎮 Uncensor Icon");
     println!("======================");
     println!("📁 Global: {}", args.global_dir);
     println!("📁 CN: {}", args.cn_dir);

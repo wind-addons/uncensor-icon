@@ -1,7 +1,7 @@
 use clap::Parser;
 
 #[derive(Parser)]
-#[command(name = "cn-icon-remover")]
+#[command(name = "uncensor-icon")]
 #[command(
     about = "A tool to compare and extract different icons between Global and CN WoW versions"
 )]

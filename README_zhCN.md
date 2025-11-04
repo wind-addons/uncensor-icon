@@ -1,8 +1,14 @@
-# 🎮 CN 图标移除工具
+<div align="center">
 
-比较并提取全球版和中国版《魔兽世界》之间的不同图标，以覆盖被审查的内容。
+# 🎮 Uncensor Icon
 
 简体中文 | [English](README.md)
+
+![title](https://raw.githubusercontent.com/wind-addons/resources/main/dist/tools/uncensor-icon/title.png)
+
+</div>
+
+比较并提取全球版和中国版《魔兽世界》之间的不同图标，以覆盖被和谐的内容。
 
 <details>
 <summary>📖 目录</summary>
@@ -32,11 +38,11 @@
 
 ### 选项1：下载预编译二进制文件
 
-1. 访问 [Releases](https://github.com/wind-addons/cn-icon-remover/releases) 页面
+1. 访问 [Releases](https://github.com/wind-addons/uncensor-icon/releases) 页面
 2. 下载适合您平台的最新二进制文件：
-   - Windows: `cn-icon-remover-windows.exe`
-   - Linux: `cn-icon-remover-linux`
-   - macOS: `cn-icon-remover-macos`
+   - Windows: `uncensor-icon-windows.exe`
+   - Linux: `uncensor-icon-linux`
+   - macOS: `uncensor-icon-macos`
 3. 将其放置在方便的位置
 
 ### 选项2：从源代码构建
@@ -45,8 +51,8 @@
 2. 克隆此仓库：
 
    ```bash
-   git clone https://github.com/wind-addons/cn-icon-remover.git
-   cd cn-icon-remover
+   git clone https://github.com/wind-addons/uncensor-icon.git
+   cd uncensor-icon
    ```
 
 3. 构建项目：
@@ -55,7 +61,7 @@
    cargo build --release
    ```
 
-4. 可执行文件将位于 `target/release/cn-icon-remover.exe`
+4. 可执行文件将位于 `target/release/uncensor-icon.exe`
 
 ## 🎯 快速开始
 
@@ -72,7 +78,7 @@
 ### 步骤2：运行工具
 
 ```pwsh
-cn-icon-remover `
+uncensor-icon `
     --global-dir "C:\WoW\Global\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --cn-dir "C:\WoW\CN\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --output-dir "C:\WoW\CN\_retail_\Interface\ICONS"
@@ -81,7 +87,7 @@ cn-icon-remover `
 ## ⚙️ 命令选项
 
 ```bash
-cn-icon-remover [选项]
+uncensor-icon [选项]
 
 必需参数:
   --global-dir <DIR>      全球版WoW图标文件夹路径
@@ -106,7 +112,7 @@ cn-icon-remover [选项]
 <summary>基本用法</summary>
 
 ```bash
-cn-icon-remover `
+uncensor-icon `
     --global-dir "C:\Games\WoW\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --cn-dir "C:\Games\WoW CN\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --output-dir "C:\Games\WoW CN\_retail_\Interface\ICONS"
@@ -118,7 +124,7 @@ cn-icon-remover `
 <summary>使用自定义黑名单</summary>
 
 ```bash
-cn-icon-remover `
+uncensor-icon `
     --global-dir "C:\Games\WoW\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --cn-dir "C:\Games\WoW CN\_retail_\BlizzardInterfaceArt\Interface\ICONS" `
     --output-dir "C:\Games\WoW CN\_retail_\Interface\ICONS" `
@@ -132,7 +138,7 @@ cn-icon-remover `
 1. 从 https://rustup.rs/ 安装 Rust
 2. 克隆或下载此项目
 3. 运行：`cargo build --release`
-4. 可执行文件将位于 `target/release/cn-icon-remover.exe`
+4. 可执行文件将位于 `target/release/uncensor-icon.exe`
 
 ## 📄 许可证
 
