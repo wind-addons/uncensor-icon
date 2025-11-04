@@ -1,0 +1,14 @@
+[package]
+name = "cn-icon-remover"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+wow-blp = "0.3.2"
+rayon = "1.8"
+walkdir = "2.4"
+anyhow = "1.0"
+indicatif = { version = "0.17", features = ["rayon"] }
+sha2 = "0.10"
+image = "0.25"
