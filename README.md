@@ -13,6 +13,7 @@ Compare and extract different icons between Global and CN World of Warcraft vers
 <details>
 <summary>📖 Table of Contents</summary>
 
+- [📦 Prebuilt Icons](#-prebuilt-icons)
 - [💼 Requirements](#-requirements)
 - [🚚 Installation](#-installation)
   - [Option 1: Download Pre-built Binary](#option-1-download-pre-built-binary)
@@ -27,6 +28,10 @@ Compare and extract different icons between Global and CN World of Warcraft vers
 - [📄 License](#-license)
 
 </details>
+
+## 📦 Prebuilt Icons
+
+You can download the prebuilt icon pack from [NGA.cn](https://nga.178.com/read.php?tid=45509323)
 
 ## 💼 Requirements
 
